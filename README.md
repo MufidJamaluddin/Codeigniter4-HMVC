@@ -48,7 +48,7 @@ app
 
 ### Custom Structure
 
-You can make structuring your module freely, because CodeIgniter4 use PSR4. 
+You can structuring your module freely, because CodeIgniter4 use PSR4. 
 If you want to change the structure of Routes.php in Config Module folder or the structure of Module Controllers, you must change app/Config/Routes.php in HMVC Routing section and modify RouteUpdate.php in app/Commands folder.
 
 ## Contribute
