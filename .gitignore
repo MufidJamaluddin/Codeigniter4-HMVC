@@ -144,6 +144,7 @@ composer.phar
 # PHPUnit
 /app/phpunit.xml
 /phpunit.xml
+/tests/_support/*
 
 # Build data
 /build/

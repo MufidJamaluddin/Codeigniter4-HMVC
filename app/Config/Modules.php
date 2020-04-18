@@ -36,7 +36,7 @@ class Modules
 	public $activeExplorers = [
 		'events',
 		'registrars',
-		'routes',
+		//'routes',
 		'services',
 	];
 

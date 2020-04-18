@@ -213,7 +213,7 @@
 			
 			<li class="menu-item hidden"><a href="<?=base_url()?>">Home</a></li>
 			<li class="menu-item hidden"><a href="<?=base_url('land/about')?>">About</a></li>
-			<li class="menu-item hidden"><a href="<?=base_url('admin/dashboard')?>">Admin Panel</a></li>
+			<li class="menu-item hidden"><a href="<?=base_url('admin/dashboard')?>">Admin Dashboard</a></li>
 
 			<li class="menu-item hidden"><a href="https://github.com/MufidJamaluddin/Codeigniter4-HMVC/" target="_blank">HMVC Docs</a></li>
 

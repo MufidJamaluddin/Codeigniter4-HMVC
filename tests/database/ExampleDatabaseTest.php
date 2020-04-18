@@ -38,4 +38,10 @@ class ExampleDatabaseTest extends \Tests\Support\DatabaseTestCase
 
 		$this->assertCount(1, $result);
 	}
+
+	public function tearDown(): void
+	{
+		// Extra code to run after each test
+		parent::tearDown();
+	}
 }
