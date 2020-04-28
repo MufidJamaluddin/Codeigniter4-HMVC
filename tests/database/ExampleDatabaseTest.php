@@ -1,5 +1,7 @@
 <?php
 
+/*
+
 use Tests\Support\Models\ExampleModel;
 
 class ExampleDatabaseTest extends \Tests\Support\DatabaseTestCase
@@ -45,3 +47,5 @@ class ExampleDatabaseTest extends \Tests\Support\DatabaseTestCase
 		parent::tearDown();
 	}
 }
+
+*/
