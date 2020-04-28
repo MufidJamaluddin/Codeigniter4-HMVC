@@ -12,9 +12,9 @@ This is Hierarchical model–view–controller (HMVC) project starter using Code
 
 ## How to use
 
-1. Clone github.com/MufidJamaluddin/Codeigniter4-HMVC.git
-2. Install dependency by run ```composer install```
-3. Configure the app by change the ```env``` file.
+1. Run ```composer create-project mufidjamaluddin/codeigniter4-hmvc```, rename folder codeigniter4-hmvc, goto folder inside.
+2. Configure the app by change the ```env``` file.
+3. Run ```php spark serve``` for run the app.
 
 ## Make new module
 
