@@ -130,7 +130,7 @@ class RouteUpdate extends BaseCommand
         
         $group_name = strtolower($module);
 
-        $path = APPPATH . "$this->module_folder/$module/Config/Routes.php";
+        $path = APPPATH . "$this->module_folder/$module/Config/dashboard.php";
 
         $module_route_config = fopen($path, "w") or die("Unable to create routes file for $module module!");
 
