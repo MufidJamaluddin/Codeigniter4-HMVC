@@ -183,7 +183,7 @@ class Dashboard extends Controller
 	{
 		\$data = [
 		    'title' => 'Dashboard Page',
-            'view' => 'admin/dashboard',
+            'view' => '" . strtolower($this->module_name) . "/dashboard',
             'data' => \$this->userModel->getUsers(),
         ];
 

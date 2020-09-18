@@ -21,8 +21,8 @@ This is Hierarchical model–view–controller (HMVC) project starter using Code
 ## Make new module
 
 1. Create module folder in app/Modules folder (example: app/Module/YourModule).
-2. Create Config, Controllers, and Models folder in your module path (example: see existing Admin and Land module)
-3. Create new Controller file and add your methods and test cases in tests folder
+2. Create Config, Controllers, Models, and Modules by run ```php spark module:create YourModule```. You can see your page in ```http://localhost:8080/YourModule``` by run ```php spark serve --port=8080``` (in the next stage, use ```http://localhost:8080/YourModule/YourController/YourMethod```.
+3. Update or Add Controller file and add your methods and test cases in tests folder
 4. Update module routes by run ```php spark route:update``` for create/change all module routes
    OR
    ```php spark route:update -m YourModule``` for create/change only one module.
@@ -44,6 +44,13 @@ Parameters:
 
 
 Usage command ```php spark route:update -i false -m YourModule```
+
+### Command module:create parameter
+
+Example ```php spark module:create invoice```
+
+First parameter (invoice) is your new module.
+
 
 ### PHPUnit
 
