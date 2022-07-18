@@ -37,6 +37,7 @@ This is Hierarchical model–view–controller (HMVC) project starter using Code
 ![Run Web 2](screenshots/sc3.jpeg)
 
 <br/>
+
 ## Notes
 
 Always run ```php spark route:update``` after create or change module, controller, or controller methods directly without `php spark module` command except if you want to configure module route manually.
