@@ -34,6 +34,13 @@ Always run ```php spark route:update``` after create or change module, controlle
 
 ## Command Prompt
 
+### Command module
+
+The easiest way to create a controller (required) and a model inside a module. Create a module or a model if it doesn't exist.
+
+Usage: Call the ```php spark module``` command, then input a module, controller, and model name.
+
+
 ### Command route:update parameter
 
 Parameters:
