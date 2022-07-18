@@ -275,18 +275,20 @@ if(!isset(\$routes))
 \$routes->group('{module}', ['namespace' => 'App\Modules\{moduleName}\Controllers'], function(\$subroutes){
 
     /*** Route for {Controller} ***/
-    \$subroutes->add('{module}', '{Controller}::index');
+    \$subroutes->add('{subpath}', '{Controller}::index');
 
 });
 
 EOD;
         $controller = pascalize($controller);
+        $subpath = strtolower($controller);
         $module = strtolower($module);
         $moduleName = pascalize($module);
 
         $template = str_replace('{module}', $module, $template);
         $template = str_replace('{moduleName}', $moduleName, $template);
         $template = str_replace('{Controller}', $controller, $template);
+        $template = str_replace('{subpath}', $subpath, $template);
 
         $homepath = APPPATH;
         $path = $homepath . '/Modules/' . $moduleName . '/Config/Routes.php';

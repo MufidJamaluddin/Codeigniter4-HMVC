@@ -22,11 +22,19 @@ This is Hierarchical model–view–controller (HMVC) project starter using Code
 
 ### Tutorial
 
-1. Call the ```php spark module``` command, then input a module, controller, and model name (Automatically configure a routes modules).
+1. Update the spark files
 
-2. Run ```composer test``` for run your test cases (optional, see [CodeIgniter4 Docs](https://codeigniter4.github.io/userguide/testing/index.html) or [PHPUnit Docs](https://phpunit.readthedocs.io/en/9.1/) )
+```bash
+composer update
+cp vendor/codeigniter4/framework/public/index.php public/index.php
+cp vendor/codeigniter4/framework/spark .
+```
 
-3. Run in the browser by ```php spark serve``` command
+2. Call the ```php spark module``` command, then input a module, controller, and model name (Automatically configure a routes modules).
+
+3. Run ```composer test``` for run your test cases (optional, see [CodeIgniter4 Docs](https://codeigniter4.github.io/userguide/testing/index.html) or [PHPUnit Docs](https://phpunit.readthedocs.io/en/9.1/) )
+
+4. Run in the browser by ```php spark serve``` command
 
 ### Screenshot Example
 
