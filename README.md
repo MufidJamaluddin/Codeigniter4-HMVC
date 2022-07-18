@@ -52,7 +52,7 @@ Always run ```php spark route:update``` after create or change module, controlle
 
 ## Command Prompt
 
-### Command module
+### Command module, controller, and model creation
 
 The easiest way to create a controller (required) and a model inside a module. Create a module or a model if it doesn't exist.
 
@@ -122,7 +122,7 @@ app
 ### Custom Structure
 
 You can structuring your module freely, because CodeIgniter4 use PSR4. 
-If you want to change the structure of Routes.php in Config Module folder or the structure of Module Controllers, you must change app/Config/Routes.php in HMVC Routing section and modify RouteUpdate.php in app/Commands folder.
+If you want to change the structure of Routes.php in Config Module folder or the structure of Module Controllers, you must change app/Config/Routes.php in HMVC Routing section and modify RouteUpdate.php & Module.php in app/Commands folder.
 
 ## Contribute
 
