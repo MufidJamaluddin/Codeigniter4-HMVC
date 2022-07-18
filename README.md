@@ -20,17 +20,27 @@ This is Hierarchical model–view–controller (HMVC) project starter using Code
 
 ## Make new module
 
-1. Create module folder in app/Modules folder (example: app/Module/YourModule).
-2. Create Config, Controllers, and Models folder in your module path (example: see existing Admin and Land module)
-3. Create new Controller file and add your methods and test cases in tests folder
-4. Update module routes by run ```php spark route:update``` for create/change all module routes
-   OR
-   ```php spark route:update -m YourModule``` for create/change only one module.
-5. Run ```composer test``` for run your test cases (optional, see [CodeIgniter4 Docs](https://codeigniter4.github.io/userguide/testing/index.html) or [PHPUnit Docs](https://phpunit.readthedocs.io/en/9.1/) )
+### Tutorial
+
+1. Call the ```php spark module``` command, then input a module, controller, and model name (Automatically configure a routes modules).
+
+2. Run ```composer test``` for run your test cases (optional, see [CodeIgniter4 Docs](https://codeigniter4.github.io/userguide/testing/index.html) or [PHPUnit Docs](https://phpunit.readthedocs.io/en/9.1/) )
+
+3. Run in the browser by ```php spark serve``` command
+
+### Screenshot Example
+
+![Create New Module](screenshots/sc1.jpeg)
+
+![Run Web 1](screenshots/sc2.jpeg)
+
+![Run Web 2](screenshots/sc3.jpeg)
+
+<br/>
 
 ## Notes
 
-Always run ```php spark route:update``` after create or change module, controller, or controller methods except if you want to configure module route manually.
+Always run ```php spark route:update``` after create or change module, controller, or controller methods directly without `php spark module` command except if you want to configure module route manually.
 
 ## Command Prompt
 
